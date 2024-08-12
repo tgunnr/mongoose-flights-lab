@@ -1,4 +1,4 @@
-import { Flight } from "../models/flight"
+import { Flight } from "../models/flight.js"
 
 function newFlight(req, res) {
   res.render("flights/new", {
@@ -7,5 +7,5 @@ function newFlight(req, res) {
 }
 
 export {
-  newFlight as New,
+  newFlight as new,
 }
